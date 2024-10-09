@@ -7,10 +7,8 @@ class Guy < Formula
   
     def install
         # Navigate into the extracted directory
-        cd "guy-1.0.0" do
-            bin.install "guy"      # Install the binary
-            man1.install "guy.1"   # Install the man page
-        end
+        bin.install "guy"      # Install the binary
+        man1.install "guy.1"   # Install the man page
     end
   
     test do
