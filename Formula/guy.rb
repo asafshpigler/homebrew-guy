@@ -2,7 +2,7 @@ class Guy < Formula
     desc "A package that explains guy"
     homepage "https://github.com/asafshpigler/guy"
     url "https://github.com/asafshpigler/guy/blob/main/v1.0.0.tar.gz"
-    sha256 "5416903924a4308d63ac269bca43d477696e5bf6dac8d9a5aae8fb6fb5eb30fc"
+    sha256 "a7c0601960de8bbec204c13f6adb0e1926e4c8dc9a00198ddd7d991423849ce7"
     version "1.0.0"
   
     def install
