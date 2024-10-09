@@ -7,7 +7,7 @@ class Guy < Formula
   
     def install
       bin.install "guy"
-      man1.install "guy.1"
+      man1.install "guy/guy.1"
     end
   
     test do
