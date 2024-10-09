@@ -6,8 +6,11 @@ class Guy < Formula
     version "1.0.0"
   
     def install
-      bin.install "guy"
-      man1.install "guy-1.0.0/guy.1"
+        # Navigate into the extracted directory
+        cd "guy-1.0.0" do
+            bin.install "guy"      # Install the binary
+            man1.install "guy.1"   # Install the man page
+        end
     end
   
     test do
